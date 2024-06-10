@@ -1,7 +1,7 @@
 import React from "react";
 import './MyPartfoly.css';
 
-import MyImage              from 'D:\\MyFiles\\OwnSite\\my-private-site\\src\\docs\\taxlangan_shaxsiy.jpg'
+import MyImage              from '../../../docs/taxlangan_shaxsiy.jpg'
 import {SiGithub, SiGitlab} from "react-icons/si";
 import {LiaLinkedin}        from "react-icons/lia";
 import {FaLinkedin}         from "react-icons/fa";
