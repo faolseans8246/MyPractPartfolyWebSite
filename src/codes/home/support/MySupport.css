@@ -1,0 +1,22 @@
+
+.support-containers {
+    border: none;
+    margin-top: 160px;
+    height: 72vh;
+    width: 97%;
+    background-color: #131212;
+
+    /*background-image: url("D:/MyFiles/OwnSite/my-private-site/src/images/HomeBack.jpg");*/
+    /*background-size: cover;*/
+    padding: 15px 20px;
+}
+
+/* Kiritiluvchi ma'lumotlar dizayni */
+.enter-person-notes {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    gap: 10px;
+    margin: 15px;
+    padding: 10px;
+
+}

@@ -1,0 +1,102 @@
+
+.footer-container {
+
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr 3fr;
+    gap: 10px;
+
+    background-color: #1e2e3a;
+    margin-top: 20px;
+    min-height: 30vh;
+    padding: 25px 50px;
+
+}
+
+/* Footer social media qismi */
+.footer-main-text {
+    margin-left: 15px;
+    margin-bottom: 35px;
+}
+
+.content {
+    margin-left: 25px;
+}
+
+.messangers {
+    margin-left: 35px;
+}
+
+.messangers .footer-logo {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.messangers .text-mess {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #40ff00;
+}
+
+.messangers .text-mess:hover {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Footer mobile contact qismi */
+.mobile-logo {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+.in-part {
+    display: inline;
+    margin-right: 10px;
+    color: #40ff00;
+}
+
+.out-part {
+    display: inline;
+    color: #00ffd0;
+}
+
+/* Footerda texnologiyalar bilan ishlash qismi */
+
+.icon-tech {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.tex-name {
+    display: inline;
+    margin-left: 15px;
+    color: #40ff00;
+}
+
+
+/* Address qismi bilan ishlash */
+.home-address {
+    margin-bottom: 25px;
+}
+
+.home-locate {
+    display: inline;
+    font-size: 24px;
+}
+
+.home-text {
+    display: inline;
+    margin-left: 10px;
+    color: #40ff00;
+}
+
+.add-h {
+    color: #00ffd0;
+}

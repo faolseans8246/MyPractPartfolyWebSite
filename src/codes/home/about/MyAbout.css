@@ -1,0 +1,26 @@
+
+.about-containers {
+    border: none;
+    margin-top: 160px;
+    height: 100vh;
+    width: 97%;
+    background-color: #131212;
+
+    /*background-image: url("D:/MyFiles/OwnSite/my-private-site/src/images/HomeBack.jpg");*/
+    /*background-size: cover;*/
+    padding: 15px 20px;
+}
+
+/* text qismi bilan ishlash */
+
+.about-part-text {
+    color: #32f802;
+}
+
+.main-text-about {
+    color: red;
+}
+
+.my-sub-about-text {
+    color: red;
+}

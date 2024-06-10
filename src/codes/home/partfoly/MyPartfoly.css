@@ -1,0 +1,137 @@
+.partfoly-container {
+    border: none;
+    margin-top: 160px;
+    height: 80vh;
+    width: 97%;
+    background-color: #131212;
+
+    /*background-image: url("D:/MyFiles/OwnSite/my-private-site/src/images/HomeBack.jpg");*/
+    /*background-size: cover;*/
+    padding: 15px 20px;
+}
+
+/* resume bilan ishlash qismining css qismi */
+.resume-parts {
+    display: grid;
+    grid-template-rows: 5fr 5fr;
+    gap: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* partfolyning men haqimda qismi bilan ishlash qismi */
+.about-my {
+    display: grid;
+    grid-template-columns: 1.5fr 8.5fr;
+    border: none;
+    background-color: #203520;
+    border-radius: 10px;
+    padding: 10px;
+
+    /*overflow: auto;*/
+    /*margin-bottom: 20px;*/
+}
+
+/* meni partfolyom haqida ma'lumotlar shakllanadi */
+.my-partf {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    gap: 10px;
+}
+
+/* Partfolyning tekst qismi bilan ishlash qismi */
+.main-text-part {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.main-partfoly-text {
+    color: #32f802;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.part-of-resume {
+    border: none;
+    background-color: #203520;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/* Image bilan ishlash qismi */
+.partfoly-image {
+    display: inline;
+    margin: 10px;
+}
+
+.my-partf-img {
+    max-width: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* men haqimda text qismi bilan ishlash */
+.about-my-text {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    gap: 10px;
+
+}
+
+.part-passport {
+    margin: 10px;
+    padding: 10px;
+}
+
+.about-enter {
+    display: inline;
+    margin-right: 20px;
+}
+
+.about-my-note {
+    display: inline;
+}
+
+.about-line {
+    margin-bottom: 10px;
+}
+
+/* partfolyo bilan ishlash qismlari */
+.part-partfoly-link {
+    margin: 10px;
+}
+
+.link-partfoly {
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.link-partfoly:active {
+    background-color: #396739;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.icon-parfoly {
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.text-partfoly-icon {
+    display: inline;
+}
+
+.link-partfoly-me {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+

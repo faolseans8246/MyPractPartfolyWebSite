@@ -1,0 +1,21 @@
+
+.myservice-container {
+    border: none;
+    margin-top: 160px;
+    height: 150vh;
+    width: 97%;
+    background-color: #131212;
+
+    /*background-image: url("D:/MyFiles/OwnSite/my-private-site/src/images/HomeBack.jpg");*/
+    /*background-size: cover;*/
+    padding: 15px 20px;
+}
+
+/* Text qismi bilan ishlash */
+.myservice-text {
+    color: #32f802;
+}
+
+.my-service-about {
+    color: red;
+}

@@ -1,0 +1,69 @@
+
+.otherskill-container {
+    border: none;
+    margin-top: 160px;
+    min-height: 72vh;
+    width: 97%;
+    background-color: #131212;
+
+    /*background-image: url("D:/MyFiles/OwnSite/my-private-site/src/images/HomeBack.jpg");*/
+    /*background-size: cover;*/
+    padding: 15px 20px;
+}
+
+/* Other skill windows */
+
+.type-text {
+    margin-top: 50px;
+}
+
+.text-t {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #32f802;
+}
+
+.otherskill-line {
+
+}
+
+
+.otherskill-texnologies {
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    gap: 20px;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.otherskill-lines {
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #0d200d;
+}
+
+.otherlogo-tex {
+    margin-bottom: 20px;
+}
+
+.otherlogs-text {
+    display: inline;
+    margin-right: 25px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.othermain-tex {
+    display: inline;
+    color: red;
+}
+
+.othertext-tex {
+    color: #ffffff;
+}
+
+.x {
+    color: #ff8000;
+}

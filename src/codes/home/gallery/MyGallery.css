@@ -1,0 +1,53 @@
+
+.gallery-container {
+    border: none;
+    margin-top: 160px;
+    height: 90vh;
+    width: 97%;
+    background-color: #131212;
+
+    /*background-image: url("D:/MyFiles/OwnSite/my-private-site/src/images/HomeBack.jpg");*/
+    /*background-size: cover;*/
+    padding: 15px 20px;
+}
+
+/* Bosh menyu gallerya yozuvi bilan ishlash qismi */
+.gallery-main-text {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.gallery-text {
+    text-transform: uppercase;
+    color: #32f802;
+}
+
+/* gallary strukturasi */
+.images-gallery {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    gap: 15px;
+}
+
+/* RASM BILAN ALOHIDA ISHLASH QISMI */
+.image-part {
+    padding: 7px;
+    background-color: #396739;
+    border-radius: 10px;
+}
+
+.own-img {
+
+}
+
+.one-img {
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img-text {
+    padding: 7px;
+}

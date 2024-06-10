@@ -1,0 +1,110 @@
+
+/* Bosh header bilan ishlash qismi */
+.header-container {
+    position: fixed;
+    top: 5px;
+    z-index: 10000;
+
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    gap: 10px;
+    background-color: #000000;
+    border: none;
+    width: 100%;
+    height: 15vh;
+    margin: 20px 0;
+    padding: 5px 15px;
+}
+
+/* Header qismidagi logo bilan ishlash qismi */
+.main-logo {
+    margin-top: -20px;
+    margin-left: 5vw;
+    margin-right: auto;
+}
+
+.main-logo .logo-image {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+/* Header qismmidagi menu buttonlari bilan ishlash qismi */
+.menu-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menue-buttons .menu-button {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #32f802;
+}
+
+.menue-buttons .menu-button:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #26b377;
+    border-bottom: 2px solid #26b377;
+    transition: width 0.9s ease-in-out;
+}
+
+.menue-buttons .menu-button:active {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #0092fa;
+    border-bottom: none;
+}
+
+/* actionlar bilan ishlash qismi */
+.action-part {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+
+    margin-right: 3vw;
+    margin-left: auto;
+}
+
+.time-data {
+
+}
+
+.function-part {
+    margin-left: auto;
+    margin-right: 1vw;
+}
+
+.time {
+    display: inline;
+    margin-right: 10px;
+    color: #40ff00;
+}
+
+.date {
+    display: inline;
+    margin-right: 10px;
+    color: #40ff00;
+}
+
+.light-func {
+    display: inline;
+}
+
+.light-night {
+    font-size: 30px;
+    color: yellow;
+    margin-right: 25px;
+}
+
+.lang-text {
+    display: inline;
+    margin-left: 5px;
+    color: #40ff00;
+    font-size: 20px;
+    font-family: "Times New Roman", sans-serif
+}

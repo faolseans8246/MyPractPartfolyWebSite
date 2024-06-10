@@ -1,0 +1,117 @@
+
+.softskills-container {
+    border: none;
+    margin-top: 160px;
+    flex-direction: column;
+    min-height: max(170vh);
+    width: 97%;
+    background-color: #131212;
+
+    /*background-image: url("D:/MyFiles/OwnSite/my-private-site/src/images/HomeBack.jpg");*/
+    /*background-size: cover;*/
+    padding: 15px 20px;
+}
+
+/* Soft skill turini ko'rsatuvchi tekst */
+
+.type-text {
+    margin-top: 50px;
+}
+
+.text-t {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #32f802;
+}
+
+/* skill texnologiyalar bilan ishlash qismi */
+.skill-parts {
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #0d200d;
+}
+
+/*
+    Skillarning qatori bilan ishlash
+*/
+
+.softskill-texnologies {
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    gap: 20px;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.softskill-lines {
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #0d200d;
+}
+
+.softlogo-tex {
+    margin-bottom: 20px;
+}
+
+.softlog-tex {
+    display: inline;
+    margin-right: 15px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.softmain-tex {
+    display: inline;
+    color: red;
+}
+
+.softtext-tex {
+    color: #ffffff;
+}
+
+.frameworks {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+/* Back buttons */
+.back-to-skill-page {
+    margin: 15px auto;
+}
+
+.back-down {
+    margin-top: 50px;
+}
+
+.back-link {
+
+}
+
+.Back-icon {
+    display: inline;
+    font-size: 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    color: #32f802;
+    background-color: #333733;
+}
+
+.Back-icon:active {
+    display: inline;
+    font-size: 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    color: #1d8f74;
+    background-color: #202b20;
+}
+
+.back-text {
+    display: inline;
+}
