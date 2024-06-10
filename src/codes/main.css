@@ -1,7 +1,7 @@
 
 body  {
     /*background-image: url("D:/MyFiles/OwnSite/my-private-site/src/images/hackPing.jpg");*/
-    background-image: url("D:/MyFiles/OwnSite/my-private-site/src/images/greenCode.jpg");
+    background-image: url("../images/greenCode.jpg");
     background-size: cover;
     min-height: 72vh;
     flex-direction: column;
